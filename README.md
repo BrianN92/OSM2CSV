@@ -19,20 +19,13 @@ pip install pandas
 Run the script with the following command:
 
 ```sh
-python OSM2CSV.py input.osm output.csv "keyword1" "keyword2"
+python3 OSM2CSV.py /map_osm/ims_map.osm "IMS_Oval.csv"
 ```
+This will generate a `IMS_Oval.csv` file containing the ways from `ims_map.osm` that match the specified keywords (if any).
 
 - `input.osm`: The OSM file to be processed.
 - `output.csv`: The name of the output CSV file.
 - `"keyword1" "keyword2"`: Keywords to filter the ways in the OSM file (optional).
-
-## Example
-
-```sh
-python3 OSM2CSV.py ims_map.osm "IMS_Oval.csv"
-```
-
-This will generate a `IMS_Oval.csv` file containing the ways from `ims_map.osm` that match the specified keywords (if any).
 
 ## How It Works
 
