@@ -1,6 +1,3 @@
-Sure! Here is the complete `README.md` file in Markdown format:
-
-```markdown
 # OSM to CSV Converter
 
 This script converts OpenStreetMap (OSM) data to CSV format, extracting ways based on specified keywords.
@@ -16,7 +13,6 @@ To install the required packages, you can use `pip`:
 
 ```sh
 pip install pandas
-```
 
 ## Usage
 
